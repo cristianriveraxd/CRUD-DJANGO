@@ -1,0 +1,116 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Form styles */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+    display: inline-block;
+    background: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 14px;
+}
+
+form button:hover {
+    background: #219150;
+}
+
+/* List styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Buttons for actions */
+ul li a {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+ul li a:first-child {
+    color: #e74c3c; /* Delete link */
+}
+
+ul li a:first-child:hover {
+    color: #c0392b;
+}
+
+ul li a:last-child {
+    color: #3498db; /* Edit link */
+}
+
+ul li a:last-child:hover {
+    color: #2980b9;
+}
+
+/* Navigation link styles */
+a[href*="lista_libros"] {
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    color: #27ae60;
+    padding: 10px 15px;
+    background: #ecf0f1;
+    border-radius: 5px;
+    font-size: 14px;
+    max-width: 200px;
+    transition: background 0.3s, color 0.3s;
+}
+
+a[href*="lista_libros"]:hover {
+    background: #bdc3c7;
+    color: #2c3e50;
+}
